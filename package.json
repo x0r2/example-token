@@ -1,5 +1,4 @@
 {
-  "name": "example-token",
   "dependencies": {
     "zeppelin-solidity": "^1.3.0"
   },
