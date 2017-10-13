@@ -6,4 +6,8 @@ contract ExampleToken is MintableToken {
     string constant public name = 'Example Token';
     string constant public symbol = 'EXT';
     uint8 constant public decimals = 18;
+
+    function ExampleToken() {
+        mint(msg.sender, 3 ether);
+    }
 }
